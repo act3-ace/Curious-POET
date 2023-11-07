@@ -1,0 +1,10 @@
+name: cpoet
+dependencies:
+    - python=3.9
+    - conda-forge::libstdcxx-ng
+    - setuptools==65.5.0  #https://github.com/openai/gym/issues/3176#issuecomment-1408598628
+    - pip
+    - pip:
+      - -r cpoet_requirements.txt
+
+

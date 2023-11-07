@@ -1,0 +1,23 @@
+
+gym[box2d]==0.21.0
+fiber
+neat-python
+imageio==2.22.0
+matplotlib
+dill
+networkx
+pandas
+numpy
+xvfbwrapper
+ipykernel
+h5py
+pynng==0.7.1
+scikit-learn
+tqdm
+pyglet==1.5.27
+
+
+# phylo tree things
+pygraphviz
+opencv-python
+

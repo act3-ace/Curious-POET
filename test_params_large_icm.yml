@@ -1,0 +1,37 @@
+# Description:
+# Niche Info:
+# # Environmnet:
+# # Optimizer:
+# # Notes:
+
+
+init: "random"
+visualize_freq: 50000  
+learning_rate: 0.01
+lr_decay: 0.9999
+lr_limit: 0.001
+batch_size: 1
+batches_per_chunk: 512
+eval_batch_size: 1
+eval_batches_per_step: 1
+master_seed: 24582960  #############################
+noise_std: 0.1
+noise_decay: 0.999
+noise_limit: 0.01
+normalize_grads_by_noise_std: True
+returns_normalization: centered_ranks
+max_num_envs: 10
+num_start_envs: 1
+start_envs_type: "randAgent"
+adjust_interval: 2
+propose_with_adam: True
+steps_before_transfer: 32  #50 is typical
+mc_lower: 100
+num_workers: 10        ##############################
+n_iterations: 40001     ################################ end with one so you get the last checkpoint
+
+niche: ICM_ES_Bipedal
+niche_params:
+  use_icm: true
+  icm_stable_iteration: 200
+  icm_training_gamma: 10.0    ############################## Intrinsic motivation coefficient (zeta)

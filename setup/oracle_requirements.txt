@@ -1,0 +1,14 @@
+#fiber
+#neat-python
+#gym[box2d]==0.21.0
+#imageio
+#xvfbwrapper
+#wandb
+#networkx
+#pygraphviz
+#pydot
+#opencv-python
+stable-baselines3[extra]  # Trainer uses a rollout buffer module from SB3.  Also includes torch
+h5py
+pynng==0.7.1
+scikit-learn
