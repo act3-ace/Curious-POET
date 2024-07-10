@@ -1,7 +1,7 @@
 import os, json, time, pickle
 import subprocess, shutil, random
 # from poet_distributed.es import initialize_master_fiber
-from poet_distributed.poet_algo import PopulationManager
+from cpoet.poet_distributed.poet_algo import PopulationManager
 from argparse import ArgumentParser
 import yaml
 from copy import deepcopy
@@ -29,7 +29,7 @@ def get_run_names(args):
 
 def parse_args():
     parser = ArgumentParser()
-    parser.add_argument("--output_dir", type=str, required=False, default="/opt/data/curious_poet/curious_poet_paper_dataset/centralized_ICM")
+    parser.add_argument("--output_dir", type=str, required=False, default=".")
     parser.add_argument("--run_names", type=str, required=False, nargs='+', default=[
         ('baseline_wCM_14nov_seed24582923', 'cp-2000'),
         ('baseline_wCM_17nov_seed24582924', '[cp-1500]->cp-2000'),

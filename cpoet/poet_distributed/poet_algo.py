@@ -22,15 +22,15 @@ from tqdm import tqdm
 import numpy as np
 from numpy.random import Generator, PCG64DXSM
 import random
-from poet_distributed.es import ESOptimizer
-from poet_distributed.es import initialize_worker_fiber
+from cpoet.poet_distributed.es import ESOptimizer
+from cpoet.poet_distributed.es import initialize_worker_fiber
 from collections import OrderedDict
-from poet_distributed.novelty import pata_ec
+from cpoet.poet_distributed.novelty import pata_ec
 import json
 import os
 import time
 import importlib
-import poet_distributed.niches.ES_Bipedal.cppn as cppn
+import cpoet.poet_distributed.niches.ES_Bipedal.cppn as cppn
 import matplotlib.pyplot as plt
 
 ###############################################################################
