@@ -1,6 +1,6 @@
 # Curious POET 
 ![image](./images/conceptual_figure_2.png)
-Curious POET augments [POET](https://arxiv.org/abs/1901.01753)/[ePOET](https://arxiv.org/abs/2003.08536)/[Marco Polo](https://github.com/act3-ace/marcopolo) with intrinsic motivation.  A centralized [curiosity module](http://proceedings.mlr.press/v70/pathak17a/pathak17a.pdf) provides intrinsic rewards to evolving POET agents that, in combination with extrinsic rewards from the bipedal walker environment, essentially speeds up evolution by directly rewarding behavioral diversity.  The effect of which is an increase in the efficiency of behavioral exploration.  
+Curious POET [(paper link)](https://direct.mit.edu/isal/proceedings-pdf/isal2024/36/21/2461249/isal_a_00736.pdf) augments [POET](https://arxiv.org/abs/1901.01753)/[ePOET](https://arxiv.org/abs/2003.08536)/[Marco Polo](https://github.com/act3-ace/marcopolo) with intrinsic motivation.  A centralized [curiosity module](http://proceedings.mlr.press/v70/pathak17a/pathak17a.pdf) provides intrinsic rewards to evolving POET agents that, in combination with extrinsic rewards from the bipedal walker environment, essentially speeds up evolution by directly rewarding behavioral diversity.  The effect of which is an increase in the efficiency of behavioral exploration.  
 
 ### Coverage Metric Score vs Instrinsic Motivation Coefficient &zeta;
 ![image](./images/cm_vs_zeta_5_95.png)
